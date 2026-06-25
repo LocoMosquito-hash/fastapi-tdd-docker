@@ -1,6 +1,7 @@
 import logging
 from functools import lru_cache
 
+# from project.app.models.pydantic import AnyUrl
 from pydantic import AnyUrl
 from pydantic_settings import BaseSettings
 
