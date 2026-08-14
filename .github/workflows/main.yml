@@ -102,7 +102,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build, test]
     env:
-      HEROKU_APP_NAME: shrouded-shelf-89730
+      HEROKU_APP_NAME: intense-castle-24822-368b5b3c2d74
       HEROKU_REGISTRY_IMAGE: registry.heroku.com/${HEROKU_APP_NAME}/summarizer
     steps:
       - name: Checkout
